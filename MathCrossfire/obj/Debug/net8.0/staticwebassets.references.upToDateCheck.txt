@@ -1,0 +1,2 @@
+C:\Users\Руслан Габзалилов\Desktop\Crossfire\CrossfireReposik\WebApplication1\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Руслан Габзалилов\Desktop\Crossfire\CrossfireReposik\WebApplication1\obj\Debug\net8.0\staticwebassets.build.json
