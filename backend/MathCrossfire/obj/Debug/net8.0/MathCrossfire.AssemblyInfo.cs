@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MathCrossfire")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7dfcab1a2b9771fffcd8e8250a42c61937165648")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+939ca867cd1c4a7502d9c1d41b9d76c4181df01b")]
 [assembly: System.Reflection.AssemblyProductAttribute("MathCrossfire")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MathCrossfire")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

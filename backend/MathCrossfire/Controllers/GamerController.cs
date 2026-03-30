@@ -252,7 +252,7 @@ namespace MathCrossfire.Controllers
 			}
 			Sent_Answers newAnswer = new Sent_Answers()
 			{
-				GameId=gameId,
+				GameId = gameId,
 				Correctness = answer == task.Answer,
 				Answer = answer,
 				SentTime = DateTime.UtcNow,
@@ -263,6 +263,8 @@ namespace MathCrossfire.Controllers
 			};
 			sentAnswersRep.CreateAnswer(newAnswer);
 			sentAnswersRep.Save();
+			team.Score++;
+			teamRep.UpdateTeam(team);
 			if (targetTeamId != -1 && answer == task.Answer)
 			{
 				double pick = rand1.NextDouble();
@@ -272,13 +274,13 @@ namespace MathCrossfire.Controllers
 				{
 					targetTeam.Score--;
 					teamRep.UpdateTeam(targetTeam);
-					teamRep.Save();
 				}
 				newShot.AnswerID = newAnswer.Id;
 				newShot.TargetTeamID = targetTeamId;
 				shotRep.CreateShot(newShot);
 				shotRep.Save();
 			}
+			teamRep.Save();
 			var sentAnswersCount = game.Tasks.SelectMany(x => x.UsersAnswers).Where(answer => answer.GameId == gameId).Count();
 
 			if (game.Tasks.Count * game.Teams.Count == sentAnswersCount)
@@ -287,7 +289,7 @@ namespace MathCrossfire.Controllers
 				game.GameEnded = true;
 				gameRep.Save();
 			}
-            hubContext.Clients.Group(gameId.ToString()).SolvedTaskMessage(user.Login,taskId, teamId, targetTeamId, newAnswer.Correctness, newAnswer.Shot is null ? false : newAnswer.Shot.isSuccessful);
+			hubContext.Clients.Group(gameId.ToString()).SolvedTaskMessage(user.Login, taskId, teamId, targetTeamId, newAnswer.Correctness, newAnswer.Shot is null ? false : newAnswer.Shot.isSuccessful);
 			return Json(new { success = 1, message = "Успешно принят ответ на задачу" });
 		}
 		

@@ -12,6 +12,7 @@ import type User from "../../Models/User"
 import type SentAnswer from "../../Models/SentAnswers"
 import type Shot from "../../Models/Shot"
 import { useCallbackRef } from "use-callback-ref"
+import Answer from "./Answer"
 interface InGameTask {
     Task: Task,
     answer: string,
@@ -48,7 +49,7 @@ export default function GameInterface() {
     const [seconds, setSeconds] = useState(0);
     useEffect(() => {
         GetGame(gameId).then((response) => {
-            setisNotFound(response.ok)
+            setisNotFound(!response.ok)
             if (response.ok) {
                 response.json().then((body) => {
                     let game: Game = mapJson(JSON.parse(body))
@@ -77,7 +78,7 @@ export default function GameInterface() {
                             targetTeamId: userTeamShot !== undefined && userTeamShot !== null ? userTeamShot.TargetTeamID : -1,
                             answerSent: isParticipating ? task.UsersAnswers.find((answer) => answer.TeamID == userTeam?.Id) !== undefined : undefined,
                             corectness: userTeamAnswer !== undefined ? userTeamAnswer.Correctness : false,
-                            isShotSuccessful: userTeamShot !== undefined && userTeamShot !== null ? userTeamShot.IsSuccessful : false
+                            isShotSuccessful: userTeamShot !== undefined && userTeamShot !== null ? userTeamShot.isSuccessful : false
 
                         }
                     }))
@@ -165,26 +166,32 @@ export default function GameInterface() {
                     gameID: gameState.ID,
                     sentTime: new Date(),
                     taskID: taskId,
-                    task: gameState?.Tasks[taskIndex],
+                    Task: gameState?.Tasks[taskIndex],
                     TeamID: teamId,
-                    team: gameState?.Teams[teamIndex],
+                    Team: gameState?.Teams[teamIndex],
+                    Game: gameState,
+                    UserLogin: Login,
                 }
                 if (gameState?.Teams[teamIndex].Answers !== null)
-                    gameState?.Teams[teamIndex].Answers.concat(sentAnswer)
+                    gameState.Teams[teamIndex].Answers = gameState?.Teams[teamIndex].Answers.concat(sentAnswer)
                 else
                     gameState.Teams[teamIndex].Answers = [sentAnswer]
 
                 if (gameState?.Tasks[taskIndex].UsersAnswers !== null)
-                    gameState?.Tasks[taskIndex].UsersAnswers.concat(sentAnswer)
+                    gameState.Tasks[taskIndex].UsersAnswers = gameState?.Tasks[taskIndex].UsersAnswers.concat(sentAnswer)
                 else
                     gameState.Tasks[taskIndex].UsersAnswers = [sentAnswer]
-
+                if (Correctness)
+                    gameState.Teams[teamIndex].Score += 1
+                if (isShotSuccessful && targetTeamIndex !== undefined) {
+                    gameState.Teams[targetTeamIndex].Score -= 1
+                }
                 if (Correctness) {
                     let shot: Shot = {
-                        IsSuccessful: isShotSuccessful,
+                        isSuccessful: isShotSuccessful,
                         TargetTeamID: targetTeamId,
                         sent_answer: sentAnswer,
-                        targetTeam: gameState.Teams[targetTeamIndex],
+                        TargetTeam: gameState.Teams[targetTeamIndex],
                     }
                 }
                 setUserTeam((userTeam) => {
@@ -228,102 +235,156 @@ export default function GameInterface() {
             </div>
             {<>{Message} {Message ? <br /> : null}</>}
             {
-                isNotFound ?
-                    <>{
-                        GameStarted ?
-                            <div style={{ maxHeight: "45vh", overflow: "auto", width: "80%" }}>
-                                <table border="5px">
-                                    <thead>
-                                        <tr>
-                                            <th>
-                                                Номер
-                                            </th>
-                                            <th>
-                                                Текст задачи
-                                            </th>
-                                            <th>
-                                                Цель выстрела
-                                            </th>
-                                            <th>
-                                                Ваш ответ
-                                            </th>
-                                            <th>
-                                                Правильность ответа
-                                            </th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        {InGameTasks.map((task, index) => {
-                                            function handleAnswerChange(event: ChangeEvent<HTMLInputElement, HTMLInputElement>): void {
-                                                let currentTasks = InGameTasks
-                                                let taskIndex = currentTasks.findIndex((t) => t.Task.Id == task.Task.Id)
-                                                currentTasks[taskIndex].answer = event.target.value
+                !isNotFound ?
+                    <>
+                        {
+                            GameStarted ?
+                                <div style={{ maxHeight: "40vh", height: "40vh", overflow: "auto", width: "80%" }}>
+                                    <table border="5px">
+                                        <thead>
+                                            <tr>
+                                                <th>
+                                                    Номер
+                                                </th>
+                                                <th>
+                                                    Текст задачи
+                                                </th>
+                                                <th>
+                                                    Цель выстрела
+                                                </th>
+                                                <th>
+                                                    Ваш ответ
+                                                </th>
+                                                <th>
+                                                    Правильность ответа
+                                                </th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            {InGameTasks.map((task, index) => {
+                                                function handleAnswerChange(event: ChangeEvent<HTMLInputElement, HTMLInputElement>): void {
+                                                    let currentTasks = InGameTasks
+                                                    let taskIndex = currentTasks.findIndex((t) => t.Task.Id == task.Task.Id)
+                                                    currentTasks[taskIndex].answer = event.target.value
 
-                                                setInGameTasks([...currentTasks])
-                                            }
+                                                    setInGameTasks([...currentTasks])
+                                                }
 
-                                            async function handleSendAnswer() {
-                                                SendAnswer(task.targetTeamId, Game.ID, UserTeam?.Id, task.Task.Id, task.answer).then((body) => {
-                                                    if (body.success !== undefined) {
-                                                        if (body.success) {
-                                                            let currentTasks = InGameTasks
-                                                            let taskIndex = currentTasks.findIndex((t) => t.Task.Id == task.Task.Id)
-                                                            currentTasks[taskIndex].answerSent = true
-                                                            setInGameTasks([...currentTasks])
+                                                async function handleSendAnswer() {
+                                                    SendAnswer(task.targetTeamId, Game.ID, UserTeam?.Id, task.Task.Id, task.answer).then((body) => {
+                                                        if (body.success !== undefined) {
+                                                            if (body.success) {
+                                                                let currentTasks = InGameTasks
+                                                                let taskIndex = currentTasks.findIndex((t) => t.Task.Id == task.Task.Id)
+                                                                currentTasks[taskIndex].answerSent = true
+                                                                setInGameTasks([...currentTasks])
+                                                            }
+                                                            alert(body.message)
                                                         }
-                                                        alert(body.message)
-                                                    }
-                                                    else
-                                                        alert(Object.values(body.errors)[0])
-                                                })
-                                            }
+                                                        else
+                                                            alert(Object.values(body.errors)[0])
+                                                    })
+                                                }
 
-                                            function handleTargetTeamIdChange(event: ChangeEvent<HTMLSelectElement, HTMLSelectElement>): void {
-                                                let currentTasks = InGameTasks
-                                                let taskIndex = currentTasks.findIndex((t) => t.Task.Id == task.Task.Id)
-                                                currentTasks[taskIndex].targetTeamId = parseInt(event.target.value)
+                                                function handleTargetTeamIdChange(event: ChangeEvent<HTMLSelectElement, HTMLSelectElement>): void {
+                                                    let currentTasks = InGameTasks
+                                                    let taskIndex = currentTasks.findIndex((t) => t.Task.Id == task.Task.Id)
+                                                    currentTasks[taskIndex].targetTeamId = parseInt(event.target.value)
 
-                                                setInGameTasks([...currentTasks])
-                                            }
+                                                    setInGameTasks([...currentTasks])
+                                                }
 
-                                            return (
-                                                <tr key={index}>
-                                                    <td>
-                                                        {index + 1}
-                                                    </td>
-                                                    <td>
-                                                        {task.Task.Text}
-                                                    </td>
-                                                    <td>
-                                                        {task.answerSent ? Game?.Teams.find((team) => team.Id == task.targetTeamId) === undefined ? "Не было выстрела" : Game?.Teams.find((team) => team.Id == task.targetTeamId)?.Name : isParticipating && GameOngoing ? <select onChange={handleTargetTeamIdChange}>
-                                                            <option value={-1} >Никто </option>
-                                                            {Game?.Teams.map((team) => {
-                                                                return (
-                                                                    <>
-                                                                        <option value={team.Id}>{team.Name}{UserTeam !== undefined && team.Id == UserTeam.Id ? "(ваша команда)" : null} </option>
-                                                                    </>
-                                                                )
-                                                            })}
-                                                        </select> : null}
+                                                return (
+                                                    <tr key={index}>
+                                                        <td>
+                                                            {index + 1}
+                                                        </td>
+                                                        <td>
+                                                            {task.Task.Text}
+                                                        </td>
+                                                        <td>
+                                                            {task.answerSent ? Game?.Teams.find((team) => team.Id == task.targetTeamId) === undefined ? "Не было выстрела" : Game?.Teams.find((team) => team.Id == task.targetTeamId)?.Name : isParticipating && GameOngoing ? <select onChange={handleTargetTeamIdChange}>
+                                                                <option value={-1} >Никто </option>
+                                                                {Game?.Teams.map((team) => {
+                                                                    return (
+                                                                        <>
+                                                                            <option value={team.Id}>{team.Name}{UserTeam !== undefined && team.Id == UserTeam.Id ? "(ваша команда)" : null} </option>
+                                                                        </>
+                                                                    )
+                                                                })}
+                                                            </select> : null}
 
-                                                    </td>
-                                                    <td>
-                                                        {task.answerSent ? task.answer : isParticipating && GameOngoing ? <input type="text" value={task.answer} onChange={handleAnswerChange} />
-                                                            : null}
-                                                    </td>
-                                                    <td>
-                                                        {task.answerSent ? task.corectness ? "Правильный" : "Неправильный" : isParticipating && GameOngoing ? <input type="button" value="Отправить" onClick={handleSendAnswer} />
-                                                            : null}
-                                                    </td>
-                                                </tr>
-                                            )
-                                        })}
-                                    </tbody>
-                                </table>
+                                                        </td>
+                                                        <td>
+                                                            {task.answerSent ? task.answer : isParticipating && GameOngoing ? <input type="text" value={task.answer} onChange={handleAnswerChange} />
+                                                                : null}
+                                                        </td>
+                                                        <td>
+                                                            {task.answerSent ? task.corectness ? "Правильный" : "Неправильный" : isParticipating && GameOngoing ? <input type="button" value="Отправить" onClick={handleSendAnswer} />
+                                                                : null}
+                                                        </td>
+                                                    </tr>
+                                                )
+                                            })}
+                                        </tbody>
+                                    </table>
+                                </div>
+                                :
+                                "Перестрелка еще не началась"
+                        }
+                        <div style={{ display: "block" }}>
+                            <div style={{ display: "flex" }}>
+                                <center>
+                                    <h3>Команды игры</h3>
+                                </center>
                             </div>
-                            :
-                            "Перестрелка еще не началась"
-                    }
+                        </div>
+                        <div style={{ maxHeight: "40vh", height: "40vh", overflow: "auto", width: "100%" }}>
+                            <table border="5px" >
+                                <thead>
+                                    <tr>
+                                        <th>
+                                            Название
+                                        </th>
+                                        <th>
+                                            Очки
+                                        </th>
+                                        <th>
+
+                                        </th>
+                                        <th>
+
+                                        </th>
+                                        <th>
+
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {
+                                        Game?.Teams.map((team, index) => {
+                                            return (
+                                                <>
+                                                    <tr key={index}>
+                                                        <td>
+                                                            {team.Name}
+                                                        </td>
+                                                        <td>
+                                                            {team.Score}
+                                                        </td>
+                                                    </tr>
+                                                    {
+
+                                                        team.Answers !== null && team.Answers !== undefined ?
+                                                            team.Answers.filter((answer) => answer.TeamID == team.Id).map((sentAnswer, index) => <Answer key={index} Answer={sentAnswer} />) : null
+                                                    }
+                                                </>
+                                            )
+                                        })
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
                     </>
                     :
                     null

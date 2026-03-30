@@ -5,7 +5,7 @@ export default interface Shot {
     iD?: number,
     answerID?: number,
     TargetTeamID: number,
-    IsSuccessful: boolean,
+    isSuccessful: boolean,
     sent_answer: SentAnswer,
-    targetTeam: Team
+    TargetTeamm: Team
 }

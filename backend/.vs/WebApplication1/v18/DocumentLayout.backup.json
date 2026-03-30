@@ -7,6 +7,22 @@
       "RelativeMoniker": "D:0:0:{B18E4550-6AEC-4197-9E76-37A84B321640}|MathCrossfire\\MathCrossfire.csproj|solutionrelative:mathcrossfire\\controllers\\gamercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{B18E4550-6AEC-4197-9E76-37A84B321640}|MathCrossfire\\MathCrossfire.csproj|c:\\users\\\u0440\u0443\u0441\u043B\u0430\u043D \u0433\u0430\u0431\u0437\u0430\u043B\u0438\u043B\u043E\u0432\\desktop\\crossfire\\crossfirereposik\\backend\\mathcrossfire\\repositories\\teamrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B18E4550-6AEC-4197-9E76-37A84B321640}|MathCrossfire\\MathCrossfire.csproj|solutionrelative:mathcrossfire\\repositories\\teamrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B18E4550-6AEC-4197-9E76-37A84B321640}|MathCrossfire\\MathCrossfire.csproj|c:\\users\\\u0440\u0443\u0441\u043B\u0430\u043D \u0433\u0430\u0431\u0437\u0430\u043B\u0438\u043B\u043E\u0432\\desktop\\crossfire\\crossfirereposik\\backend\\mathcrossfire\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B18E4550-6AEC-4197-9E76-37A84B321640}|MathCrossfire\\MathCrossfire.csproj|solutionrelative:mathcrossfire\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B18E4550-6AEC-4197-9E76-37A84B321640}|MathCrossfire\\MathCrossfire.csproj|c:\\users\\\u0440\u0443\u0441\u043B\u0430\u043D \u0433\u0430\u0431\u0437\u0430\u043B\u0438\u043B\u043E\u0432\\desktop\\crossfire\\crossfirereposik\\backend\\mathcrossfire\\models\\sent_answers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B18E4550-6AEC-4197-9E76-37A84B321640}|MathCrossfire\\MathCrossfire.csproj|solutionrelative:mathcrossfire\\models\\sent_answers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B18E4550-6AEC-4197-9E76-37A84B321640}|MathCrossfire\\MathCrossfire.csproj|c:\\users\\\u0440\u0443\u0441\u043B\u0430\u043D \u0433\u0430\u0431\u0437\u0430\u043B\u0438\u043B\u043E\u0432\\desktop\\crossfire\\crossfirereposik\\backend\\mathcrossfire\\models\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B18E4550-6AEC-4197-9E76-37A84B321640}|MathCrossfire\\MathCrossfire.csproj|solutionrelative:mathcrossfire\\models\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B18E4550-6AEC-4197-9E76-37A84B321640}|MathCrossfire\\MathCrossfire.csproj|c:\\users\\\u0440\u0443\u0441\u043B\u0430\u043D \u0433\u0430\u0431\u0437\u0430\u043B\u0438\u043B\u043E\u0432\\desktop\\crossfire\\crossfirereposik\\backend\\mathcrossfire\\gamehub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B18E4550-6AEC-4197-9E76-37A84B321640}|MathCrossfire\\MathCrossfire.csproj|solutionrelative:mathcrossfire\\gamehub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -21,18 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B18E4550-6AEC-4197-9E76-37A84B321640}|MathCrossfire\\MathCrossfire.csproj|c:\\users\\\u0440\u0443\u0441\u043B\u0430\u043D \u0433\u0430\u0431\u0437\u0430\u043B\u0438\u043B\u043E\u0432\\desktop\\crossfire\\crossfirereposik\\backend\\mathcrossfire\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B18E4550-6AEC-4197-9E76-37A84B321640}|MathCrossfire\\MathCrossfire.csproj|solutionrelative:mathcrossfire\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B18E4550-6AEC-4197-9E76-37A84B321640}|MathCrossfire\\MathCrossfire.csproj|c:\\users\\\u0440\u0443\u0441\u043B\u0430\u043D \u0433\u0430\u0431\u0437\u0430\u043B\u0438\u043B\u043E\u0432\\desktop\\crossfire\\crossfirereposik\\backend\\mathcrossfire\\models\\sent_answers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B18E4550-6AEC-4197-9E76-37A84B321640}|MathCrossfire\\MathCrossfire.csproj|solutionrelative:mathcrossfire\\models\\sent_answers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B18E4550-6AEC-4197-9E76-37A84B321640}|MathCrossfire\\MathCrossfire.csproj|c:\\users\\\u0440\u0443\u0441\u043B\u0430\u043D \u0433\u0430\u0431\u0437\u0430\u043B\u0438\u043B\u043E\u0432\\desktop\\crossfire\\crossfirereposik\\backend\\mathcrossfire\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{B18E4550-6AEC-4197-9E76-37A84B321640}|MathCrossfire\\MathCrossfire.csproj|solutionrelative:mathcrossfire\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B18E4550-6AEC-4197-9E76-37A84B321640}|MathCrossfire\\MathCrossfire.csproj|c:\\users\\\u0440\u0443\u0441\u043B\u0430\u043D \u0433\u0430\u0431\u0437\u0430\u043B\u0438\u043B\u043E\u0432\\desktop\\crossfire\\crossfirereposik\\backend\\mathcrossfire\\models\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B18E4550-6AEC-4197-9E76-37A84B321640}|MathCrossfire\\MathCrossfire.csproj|solutionrelative:mathcrossfire\\models\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B18E4550-6AEC-4197-9E76-37A84B321640}|MathCrossfire\\MathCrossfire.csproj|c:\\users\\\u0440\u0443\u0441\u043B\u0430\u043D \u0433\u0430\u0431\u0437\u0430\u043B\u0438\u043B\u043E\u0432\\desktop\\crossfire\\crossfirereposik\\backend\\mathcrossfire\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -53,10 +57,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B18E4550-6AEC-4197-9E76-37A84B321640}|MathCrossfire\\MathCrossfire.csproj|c:\\users\\\u0440\u0443\u0441\u043B\u0430\u043D \u0433\u0430\u0431\u0437\u0430\u043B\u0438\u043B\u043E\u0432\\desktop\\crossfire\\crossfirereposik\\backend\\mathcrossfire\\models\\shots.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B18E4550-6AEC-4197-9E76-37A84B321640}|MathCrossfire\\MathCrossfire.csproj|solutionrelative:mathcrossfire\\models\\shots.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B18E4550-6AEC-4197-9E76-37A84B321640}|MathCrossfire\\MathCrossfire.csproj|c:\\users\\\u0440\u0443\u0441\u043B\u0430\u043D \u0433\u0430\u0431\u0437\u0430\u043B\u0438\u043B\u043E\u0432\\desktop\\crossfire\\crossfirereposik\\backend\\mathcrossfire\\repositories\\teamrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B18E4550-6AEC-4197-9E76-37A84B321640}|MathCrossfire\\MathCrossfire.csproj|solutionrelative:mathcrossfire\\repositories\\teamrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B18E4550-6AEC-4197-9E76-37A84B321640}|MathCrossfire\\MathCrossfire.csproj|c:\\users\\\u0440\u0443\u0441\u043B\u0430\u043D \u0433\u0430\u0431\u0437\u0430\u043B\u0438\u043B\u043E\u0432\\desktop\\crossfire\\crossfirereposik\\backend\\mathcrossfire\\validationattributes\\uptodateattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -82,50 +82,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\\u0420\u0443\u0441\u043B\u0430\u043D \u0413\u0430\u0431\u0437\u0430\u043B\u0438\u043B\u043E\u0432\\Desktop\\Crossfire\\CrossfireReposik\\backend\\MathCrossfire\\Program.cs",
-              "RelativeDocumentMoniker": "MathCrossfire\\Program.cs",
-              "ToolTip": "C:\\Users\\\u0420\u0443\u0441\u043B\u0430\u043D \u0413\u0430\u0431\u0437\u0430\u043B\u0438\u043B\u043E\u0432\\Desktop\\Crossfire\\CrossfireReposik\\backend\\MathCrossfire\\Program.cs",
-              "RelativeToolTip": "MathCrossfire\\Program.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAArwC0AAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T08:04:57.184Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Sent_Answers.cs",
-              "DocumentMoniker": "C:\\Users\\\u0420\u0443\u0441\u043B\u0430\u043D \u0413\u0430\u0431\u0437\u0430\u043B\u0438\u043B\u043E\u0432\\Desktop\\Crossfire\\CrossfireReposik\\backend\\MathCrossfire\\Models\\Sent_Answers.cs",
-              "RelativeDocumentMoniker": "MathCrossfire\\Models\\Sent_Answers.cs",
-              "ToolTip": "C:\\Users\\\u0420\u0443\u0441\u043B\u0430\u043D \u0413\u0430\u0431\u0437\u0430\u043B\u0438\u043B\u043E\u0432\\Desktop\\Crossfire\\CrossfireReposik\\backend\\MathCrossfire\\Models\\Sent_Answers.cs",
-              "RelativeToolTip": "MathCrossfire\\Models\\Sent_Answers.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-29T12:27:10.3Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "GamerController.cs",
               "DocumentMoniker": "C:\\Users\\\u0420\u0443\u0441\u043B\u0430\u043D \u0413\u0430\u0431\u0437\u0430\u043B\u0438\u043B\u043E\u0432\\Desktop\\Crossfire\\CrossfireReposik\\backend\\MathCrossfire\\Controllers\\GamerController.cs",
               "RelativeDocumentMoniker": "MathCrossfire\\Controllers\\GamerController.cs",
-              "ToolTip": "C:\\Users\\\u0420\u0443\u0441\u043B\u0430\u043D \u0413\u0430\u0431\u0437\u0430\u043B\u0438\u043B\u043E\u0432\\Desktop\\Crossfire\\CrossfireReposik\\backend\\MathCrossfire\\Controllers\\GamerController.cs*",
-              "RelativeToolTip": "MathCrossfire\\Controllers\\GamerController.cs*",
-              "ViewState": "AgIAAAoBAAAAAAAAAAASwCABAAAEAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\\u0420\u0443\u0441\u043B\u0430\u043D \u0413\u0430\u0431\u0437\u0430\u043B\u0438\u043B\u043E\u0432\\Desktop\\Crossfire\\CrossfireReposik\\backend\\MathCrossfire\\Controllers\\GamerController.cs",
+              "RelativeToolTip": "MathCrossfire\\Controllers\\GamerController.cs",
+              "ViewState": "AgIAAAEBAAAAAAAAAAAqwAoBAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-23T04:43:11.808Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "Game.cs",
               "DocumentMoniker": "C:\\Users\\\u0420\u0443\u0441\u043B\u0430\u043D \u0413\u0430\u0431\u0437\u0430\u043B\u0438\u043B\u043E\u0432\\Desktop\\Crossfire\\CrossfireReposik\\backend\\MathCrossfire\\Models\\Game.cs",
               "RelativeDocumentMoniker": "MathCrossfire\\Models\\Game.cs",
@@ -138,7 +112,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "GameHub.cs",
               "DocumentMoniker": "C:\\Users\\\u0420\u0443\u0441\u043B\u0430\u043D \u0413\u0430\u0431\u0437\u0430\u043B\u0438\u043B\u043E\u0432\\Desktop\\Crossfire\\CrossfireReposik\\backend\\MathCrossfire\\GameHub.cs",
               "RelativeDocumentMoniker": "MathCrossfire\\GameHub.cs",
@@ -146,12 +120,11 @@
               "RelativeToolTip": "MathCrossfire\\GameHub.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-26T07:21:30.067Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-26T07:21:30.067Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Tasks.cs",
               "DocumentMoniker": "C:\\Users\\\u0420\u0443\u0441\u043B\u0430\u043D \u0413\u0430\u0431\u0437\u0430\u043B\u0438\u043B\u043E\u0432\\Desktop\\Crossfire\\CrossfireReposik\\backend\\MathCrossfire\\Models\\Tasks.cs",
               "RelativeDocumentMoniker": "MathCrossfire\\Models\\Tasks.cs",
@@ -159,12 +132,11 @@
               "RelativeToolTip": "MathCrossfire\\Models\\Tasks.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T06:32:47.499Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-27T06:32:47.499Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "Teams.cs",
               "DocumentMoniker": "C:\\Users\\\u0420\u0443\u0441\u043B\u0430\u043D \u0413\u0430\u0431\u0437\u0430\u043B\u0438\u043B\u043E\u0432\\Desktop\\Crossfire\\CrossfireReposik\\backend\\MathCrossfire\\Models\\Teams.cs",
               "RelativeDocumentMoniker": "MathCrossfire\\Models\\Teams.cs",
@@ -172,25 +144,62 @@
               "RelativeToolTip": "MathCrossfire\\Models\\Teams.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-26T07:57:59.561Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-26T07:57:59.561Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\\u0420\u0443\u0441\u043B\u0430\u043D \u0413\u0430\u0431\u0437\u0430\u043B\u0438\u043B\u043E\u0432\\Desktop\\Crossfire\\CrossfireReposik\\backend\\MathCrossfire\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "MathCrossfire\\Properties\\launchSettings.json",
               "ToolTip": "C:\\Users\\\u0420\u0443\u0441\u043B\u0430\u043D \u0413\u0430\u0431\u0437\u0430\u043B\u0438\u043B\u043E\u0432\\Desktop\\Crossfire\\CrossfireReposik\\backend\\MathCrossfire\\Properties\\launchSettings.json",
               "RelativeToolTip": "MathCrossfire\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-03-29T09:00:10.973Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TeamRepository.cs",
+              "DocumentMoniker": "C:\\Users\\\u0420\u0443\u0441\u043B\u0430\u043D \u0413\u0430\u0431\u0437\u0430\u043B\u0438\u043B\u043E\u0432\\Desktop\\Crossfire\\CrossfireReposik\\backend\\MathCrossfire\\Repositories\\TeamRepository.cs",
+              "RelativeDocumentMoniker": "MathCrossfire\\Repositories\\TeamRepository.cs",
+              "ToolTip": "C:\\Users\\\u0420\u0443\u0441\u043B\u0430\u043D \u0413\u0430\u0431\u0437\u0430\u043B\u0438\u043B\u043E\u0432\\Desktop\\Crossfire\\CrossfireReposik\\backend\\MathCrossfire\\Repositories\\TeamRepository.cs",
+              "RelativeToolTip": "MathCrossfire\\Repositories\\TeamRepository.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAqwCUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T07:56:26.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Sent_Answers.cs",
+              "DocumentMoniker": "C:\\Users\\\u0420\u0443\u0441\u043B\u0430\u043D \u0413\u0430\u0431\u0437\u0430\u043B\u0438\u043B\u043E\u0432\\Desktop\\Crossfire\\CrossfireReposik\\backend\\MathCrossfire\\Models\\Sent_Answers.cs",
+              "RelativeDocumentMoniker": "MathCrossfire\\Models\\Sent_Answers.cs",
+              "ToolTip": "C:\\Users\\\u0420\u0443\u0441\u043B\u0430\u043D \u0413\u0430\u0431\u0437\u0430\u043B\u0438\u043B\u043E\u0432\\Desktop\\Crossfire\\CrossfireReposik\\backend\\MathCrossfire\\Models\\Sent_Answers.cs",
+              "RelativeToolTip": "MathCrossfire\\Models\\Sent_Answers.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T12:27:10.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\\u0420\u0443\u0441\u043B\u0430\u043D \u0413\u0430\u0431\u0437\u0430\u043B\u0438\u043B\u043E\u0432\\Desktop\\Crossfire\\CrossfireReposik\\backend\\MathCrossfire\\Program.cs",
+              "RelativeDocumentMoniker": "MathCrossfire\\Program.cs",
+              "ToolTip": "C:\\Users\\\u0420\u0443\u0441\u043B\u0430\u043D \u0413\u0430\u0431\u0437\u0430\u043B\u0438\u043B\u043E\u0432\\Desktop\\Crossfire\\CrossfireReposik\\backend\\MathCrossfire\\Program.cs",
+              "RelativeToolTip": "MathCrossfire\\Program.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAArwC0AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T08:04:57.184Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "AdminController.cs",
               "DocumentMoniker": "C:\\Users\\\u0420\u0443\u0441\u043B\u0430\u043D \u0413\u0430\u0431\u0437\u0430\u043B\u0438\u043B\u043E\u0432\\Desktop\\Crossfire\\CrossfireReposik\\backend\\MathCrossfire\\Controllers\\AdminController.cs",
               "RelativeDocumentMoniker": "MathCrossfire\\Controllers\\AdminController.cs",
@@ -198,12 +207,11 @@
               "RelativeToolTip": "MathCrossfire\\Controllers\\AdminController.cs",
               "ViewState": "AgIAAFcAAAAAAAAAAAAQwHAAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T08:16:21.166Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-23T08:16:21.166Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "GameContext.cs",
               "DocumentMoniker": "C:\\Users\\\u0420\u0443\u0441\u043B\u0430\u043D \u0413\u0430\u0431\u0437\u0430\u043B\u0438\u043B\u043E\u0432\\Desktop\\Crossfire\\CrossfireReposik\\backend\\MathCrossfire\\DataBase\\GameContext.cs",
               "RelativeDocumentMoniker": "MathCrossfire\\DataBase\\GameContext.cs",
@@ -211,12 +219,11 @@
               "RelativeToolTip": "MathCrossfire\\DataBase\\GameContext.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T04:42:00.991Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-23T04:42:00.991Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\\u0420\u0443\u0441\u043B\u0430\u043D \u0413\u0430\u0431\u0437\u0430\u043B\u0438\u043B\u043E\u0432\\Desktop\\Crossfire\\CrossfireReposik\\backend\\MathCrossfire\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "MathCrossfire\\Controllers\\HomeController.cs",
@@ -224,12 +231,11 @@
               "RelativeToolTip": "MathCrossfire\\Controllers\\HomeController.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAAawC0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-22T12:39:36.61Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-22T12:39:36.61Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Shots.cs",
               "DocumentMoniker": "C:\\Users\\\u0420\u0443\u0441\u043B\u0430\u043D \u0413\u0430\u0431\u0437\u0430\u043B\u0438\u043B\u043E\u0432\\Desktop\\Crossfire\\CrossfireReposik\\backend\\MathCrossfire\\Models\\Shots.cs",
               "RelativeDocumentMoniker": "MathCrossfire\\Models\\Shots.cs",
@@ -237,25 +243,11 @@
               "RelativeToolTip": "MathCrossfire\\Models\\Shots.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T06:30:33.949Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-27T06:30:33.949Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "TeamRepository.cs",
-              "DocumentMoniker": "C:\\Users\\\u0420\u0443\u0441\u043B\u0430\u043D \u0413\u0430\u0431\u0437\u0430\u043B\u0438\u043B\u043E\u0432\\Desktop\\Crossfire\\CrossfireReposik\\backend\\MathCrossfire\\Repositories\\TeamRepository.cs",
-              "RelativeDocumentMoniker": "MathCrossfire\\Repositories\\TeamRepository.cs",
-              "ToolTip": "C:\\Users\\\u0420\u0443\u0441\u043B\u0430\u043D \u0413\u0430\u0431\u0437\u0430\u043B\u0438\u043B\u043E\u0432\\Desktop\\Crossfire\\CrossfireReposik\\backend\\MathCrossfire\\Repositories\\TeamRepository.cs",
-              "RelativeToolTip": "MathCrossfire\\Repositories\\TeamRepository.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-26T07:56:26.991Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "GameRepository.cs",
               "DocumentMoniker": "C:\\Users\\\u0420\u0443\u0441\u043B\u0430\u043D \u0413\u0430\u0431\u0437\u0430\u043B\u0438\u043B\u043E\u0432\\Desktop\\Crossfire\\CrossfireReposik\\backend\\MathCrossfire\\Repositories\\GameRepository.cs",
               "RelativeDocumentMoniker": "MathCrossfire\\Repositories\\GameRepository.cs",
@@ -263,8 +255,7 @@
               "RelativeToolTip": "MathCrossfire\\Repositories\\GameRepository.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAgwBAAAAC9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-28T05:55:18.922Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-28T05:55:18.922Z"
             },
             {
               "$type": "Document",
@@ -276,8 +267,7 @@
               "RelativeToolTip": "MathCrossfire\\ValidationAttributes\\UpToDateAttribute.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-25T17:34:57.243Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-25T17:34:57.243Z"
             },
             {
               "$type": "Document",
@@ -289,8 +279,7 @@
               "RelativeToolTip": "MathCrossfire\\Contracts\\GameRequest.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAQwBMAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-25T16:09:43.341Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-25T16:09:43.341Z"
             },
             {
               "$type": "Document",
@@ -302,8 +291,7 @@
               "RelativeToolTip": "MathCrossfire\\Repositories\\TaskRepository.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T11:20:56.379Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-23T11:20:56.379Z"
             },
             {
               "$type": "Document",
@@ -315,8 +303,7 @@
               "RelativeToolTip": "MathCrossfire\\Contracts\\RegisterRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwA8AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T04:58:57.853Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-23T04:58:57.853Z"
             }
           ]
         }

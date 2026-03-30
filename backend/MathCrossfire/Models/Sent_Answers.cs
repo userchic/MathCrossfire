@@ -20,5 +20,6 @@ namespace MathCrossfire.Models
         public Users User { get; set; }
         public Shots? Shot { get; set; }
         public Teams Team { get; set; }
+        public Game Game { get; set; }
     }
 }
